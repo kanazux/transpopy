@@ -16,6 +16,8 @@ from google.cloud import translate
 
 
 def check_google_credentials(_help):
+    """Check if google credentials is on shell environment."""
+
     _doc = ("https://cloud.google.com/"
             "docs/authentication/getting-started")
     if 'GOOGLE_APPLICATION_CREDENTIALS' not in os.environ:

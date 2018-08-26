@@ -16,6 +16,8 @@ from collections import defaultdict
 class po_data():
 
     def __init__(self, _file, _fuzzy=False):
+        """Init some variables."""
+
         self.data = list(filter(None, open(
             _file, 'r', encoding='utf-8').read().split("\n")))
         self.head = []
@@ -29,6 +31,8 @@ class po_data():
             self.msgstr = "msgstr"
 
     def get_head(self):
+        """Get head of file, dont translate this part of document."""
+
         for line in self.data:
             if bool(re.match(r"^#[:|~|\.]", line)):
                 break
@@ -37,6 +41,13 @@ class po_data():
         return self.head
 
     def get_msgs(self):
+        """Read the po file and get messages to translate.
+
+        Save lines references as like msgstr.
+        Return a defaultdict with msgid like iterator items and msgstr into
+        a dict key ['msgstr'].
+        """
+
         _data = self.data[len(self.get_head()):]
         for idx, line in enumerate(_data):
             if line.startswith(self.msgid):
