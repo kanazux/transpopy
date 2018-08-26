@@ -1,0 +1,72 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+Read, translate and save a po file with google API.
+
+This script use the google translate API to translate strings into a po file,
+then save the new file with an option to create fuzzy messages.
+"""
+
+
+import os
+import sys
+from transpopy.po_data import po_data
+from transpopy.transparse import return_args
+from google.cloud import translate
+
+
+def check_google_credentials(_help):
+    _doc = ("https://cloud.google.com/"
+            "docs/authentication/getting-started")
+    if 'GOOGLE_APPLICATION_CREDENTIALS' not in os.environ:
+        print(("This script works with google cloud translate API.\n"
+               "To works fine, needs export GOOGLE_APPLICATION_CREDENTIALS\n"
+               "In the shell environment.\n"
+               "Look at google documentation to know how create an API key.\n"
+               "\n  {}"
+               "\n\n"
+               "Use -a options to pass the path of your json file with your "
+               "google credentials if exists\n".format(_doc)))
+        _help.print_help()
+        sys.exit(0)
+
+
+def get_translated_msgs(_opts):
+    """Try to translate messages id"""
+
+    try:
+        _client = translate.Client()
+        _head = po_data(_opts.file).get_head()
+        _pofile = po_data(_opts.file).get_msgs()
+        with open(_opts.output_file, 'a') as new_pofile:
+            for line in _head:
+                new_pofile.write("{}\n".format(line))
+            new_pofile.write("\n")
+            for idx, text in enumerate(_pofile):
+                try:
+                    trans = _client.translate(text,
+                                              target_language=_opts.translate)
+                    if _opts.print_process:
+                        print("Tranlating message: {}\n{}\n".format(idx, text))
+                    for line in _pofile[text]['lines']:
+                        new_pofile.write("{}\n".format(line))
+                    if _opts.imprecise:
+                        new_pofile.write("#, fuzzy\n")
+                    new_pofile.write("msgid {}\n".format(text))
+                    new_pofile.write("msgstr {}\n\n".format(
+                        trans['translatedText'].replace(
+                            "&quot;", '"')))
+                except Exception as error:
+                    if _opts.error:
+                        print(error)
+    except Exception as error:
+        print(error)
+
+
+if __name__ == "__main__":
+    parser = return_args()
+    check_google_credentials(parser)
+
+    opts = parser.parse_args()
+
+    get_translated_msgs(opts)

@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Samples directory
+samples/*
+
+# po files
+*.po
+
 # C extensions
 *.so
 
