@@ -1,0 +1,52 @@
+#$FreeBSD$
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-08-12 23:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, fuzzy
+msgid "translator-credits"
+msgstr "tradutor-créditos"
+
+#: article.translate.xml:6
+#, fuzzy
+msgid "FreeBSD Support for Leap Seconds"
+msgstr "Suporte do FreeBSD para Leap Seconds"
+
+#: article.translate.xml:8
+#, fuzzy
+msgid "$FreeBSD: head/en_US.ISO8859-1/articles/leap-seconds/article.xml 51243 2017-11-30 14:49:53Z ygy $"
+msgstr "$ FreeBSD: head / pt_PT.ISO8859-1 / artigos / leap-seconds / article.xml 51243 2017-11-30 14: 49: 53Z ygy $"
+
+#: article.translate.xml:12
+#, fuzzy
+msgid "Introduction"
+msgstr "Introdução"
+
+#: article.translate.xml:14
+#, fuzzy
+msgid "A <emphasis>leap second</emphasis> is an one second adjustment made at specific times of year to UTC to synchronize atomic time scales with variations in the rotation of the Earth. This article describes how FreeBSD interacts with leap seconds."
+msgstr "UMA <emphasis> segundo salto </emphasis> é um ajuste de um segundo feito em momentos específicos do ano para a UTC para sincronizar escalas de tempo atômico com variações na rotação da Terra. Este artigo descreve como o FreeBSD interage com segundos bissextos. "
+
+#: article.translate.xml:20
+#, fuzzy
+msgid "As of this writing, the next leap second will occur at 2015-Jun-30 23:59:60 UTC. This leap second will occur during a business day for North and South America and the Asia/Pacific region."
+msgstr "Até o momento, o segundo bissexto ocorrerá em 2015-Jun-30 23:59:60 UTC. Esse segundo bissexto ocorrerá durante um dia útil para a América do Norte e do Sul e a região da Ásia / Pacífico."
+
+#: article.translate.xml:25
+#, fuzzy
+msgid "Leap seconds are announced by <link xlink:href=\"http://datacenter.iers.org/\"><acronym>IERS</acronym></link> on <link xlink:href=\"http://datacenter.iers.org/web/guest/bulletins/-/somos/5Rgv/product/16\">Bulletin C</link>."
+msgstr "Os segundos bissextos são anunciados por <link xlink:href=\"http://datacenter.iers.org/\"> <acronym>IERS</acronym> </link> em <link xlink:href=\"http://datacenter.iers.org/web/guest/bulletins/-/somos/5Rgv/product/16\"> Boletim C </link> "
+
+#: article.translate.xml:29
+#, fuzzy
+msgid "Standard leap second behavior is described in <link xlink:href=\"https://tools.ietf.org/html/rfc7164#section-3\">RFC 7164</link>. Also see <citerefentry><refentrytitle>time2posix</refentrytitle><manvolnum>3</manvolnum></citerefentry>."
+msgstr "O comportamento padrão do segundo salto é descrito em <link xlink:href=\"https://tools.ietf.org/html/rfc7164#section-3\"> RFC 7164 </link> . Veja também <citerefentry><refentrytitle> time2posix </refentrytitle><manvolnum> 3 </manvolnum></citerefentry> "
+

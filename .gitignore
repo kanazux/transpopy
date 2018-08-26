@@ -3,11 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Samples directory
-samples/*
-
-# po files
-*.po
+# ignore mykey
+samples/kanazuchi.*
 
 # C extensions
 *.so
