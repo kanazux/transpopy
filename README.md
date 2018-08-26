@@ -16,7 +16,7 @@ optional arguments:
   -l LANG, --lang LANG  Get original language of po file.
   -t TRANSLATE, --translate TRANSLATE
                         Get language to translate the po file strings.
-  -i, --imprecise       Get language to translate the po file strings.
+  -i, --imprecise       Write messages as fuzzy.
   -e, --error           Print some errors if exists.
   -p, --print_process   Print translate process.
 ```

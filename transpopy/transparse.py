@@ -19,7 +19,7 @@ def return_args():
     _parser.add_argument('-t', '--translate', action='store', required=True,
                          help="Get language to translate the po file strings.")
     _parser.add_argument('-i', '--imprecise', action='store_true',
-                         help="Get language to translate the po file strings.")
+                         help="Write messages as fuzzy.")
     _parser.add_argument('-e', '--error', action='store_true',
                          help="Print some errors if exists.")
     _parser.add_argument('-p', '--print_process', action='store_true',
