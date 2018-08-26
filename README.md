@@ -7,6 +7,7 @@ Read pot files to translate strings in msgid with google translate API and save 
 ### Help:
 Translate msgid from po file with google translate API
 
+```
 optional arguments:
   -h, --help            show this help message and exit
   -f FILE, --file FILE  Get the po file name to translated msgid's.
@@ -18,3 +19,4 @@ optional arguments:
   -i, --imprecise       Get language to translate the po file strings.
   -e, --error           Print some errors if exists.
   -p, --print_process   Print translate process.
+```
