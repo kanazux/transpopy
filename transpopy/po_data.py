@@ -18,8 +18,8 @@ class po_data():
     def __init__(self, _file, _fuzzy=False):
         """Init some variables."""
 
-        self.data = list(filter(None, open(
-            _file, 'r', encoding='utf-8').read().split("\n")))
+        with open(_file, 'r') as _open_file:
+            self.data = list(filter(None, _open_file.read().split("\n")))
         self.head = []
         self.msgs = defaultdict(lambda: False)
         self.fuzzy = _fuzzy

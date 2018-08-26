@@ -50,3 +50,6 @@ msgstr "Os segundos bissextos são anunciados por <link xlink:href=\"http://data
 msgid "Standard leap second behavior is described in <link xlink:href=\"https://tools.ietf.org/html/rfc7164#section-3\">RFC 7164</link>. Also see <citerefentry><refentrytitle>time2posix</refentrytitle><manvolnum>3</manvolnum></citerefentry>."
 msgstr "O comportamento padrão do segundo salto é descrito em <link xlink:href=\"https://tools.ietf.org/html/rfc7164#section-3\"> RFC 7164 </link> . Veja também <citerefentry><refentrytitle> time2posix </refentrytitle><manvolnum> 3 </manvolnum></citerefentry> "
 
+#: line.fic:69
+#~ msgid "Standard testes"
+#~ msgstr "Tests padrao"

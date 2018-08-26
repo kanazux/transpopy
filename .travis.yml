@@ -1,0 +1,13 @@
+language: python
+python:
+  '3.6'
+install:
+  pip install tox-travis coverage codecov
+script:
+  python setup.py test
+script:
+  tox
+script:
+  coverage run --source=transpopy -m unittest discover -s tests/
+after_success:
+  codecov
