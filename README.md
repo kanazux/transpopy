@@ -1,6 +1,8 @@
 # transpopy
 Read pot files to translate strings in msgid with google translate API and save a new po file.
 
+[![Build Status](https://travis-ci.org/kanazux/transpopy.svg?branch=master)](https://travis-ci.org/kanazux/transpopy)
+
 ### Usage:
 > transpopy -f samples/leap-seconds.pot -o newfile.po -t pt_br -e -i -p
 
