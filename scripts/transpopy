@@ -9,6 +9,7 @@ then save the new file with an option to create fuzzy messages.
 
 
 import os
+import re
 import sys
 from transpopy.po_data import po_data
 from transpopy.transparse import return_args
@@ -25,10 +26,7 @@ def check_google_credentials(_help):
                "To works fine, needs export GOOGLE_APPLICATION_CREDENTIALS\n"
                "In the shell environment.\n"
                "Look at google documentation to know how create an API key.\n"
-               "\n  {}"
-               "\n\n"
-               "Use -a options to pass the path of your json file with your "
-               "google credentials if exists\n".format(_doc)))
+               "\n  {}\n".format(_doc)))
         _help.print_help()
         sys.exit(0)
 
@@ -46,18 +44,21 @@ def get_translated_msgs(_opts):
             new_pofile.write("\n")
             for idx, text in enumerate(_pofile):
                 try:
-                    trans = _client.translate(text,
+                    _text = re.subn(r'("?\|\n\|"?)', ' ', text)[0]
+                    print(_text)
+                    trans = _client.translate(_text,
                                               target_language=_opts.translate)
                     if _opts.print_process:
-                        print("Tranlating message: {}\n{}\n".format(idx, text))
+                        print("Tranlating message: {}\n{}\n".format(idx,
+                                                                    _text))
                     for line in _pofile[text]['lines']:
                         new_pofile.write("{}\n".format(line))
                     if _opts.imprecise:
                         new_pofile.write("#, fuzzy\n")
-                    new_pofile.write("msgid {}\n".format(text))
+                    new_pofile.write("msgid {}\n".format(_text))
                     new_pofile.write("msgstr {}\n\n".format(
-                        trans['translatedText'].replace(
-                            "&quot;", '"')))
+                        trans['translatedText'].replace("&quot;", '"')))
+
                 except Exception as error:
                     if _opts.error:
                         print(error)

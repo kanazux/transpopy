@@ -9,7 +9,6 @@ on a new po file.
 
 
 import re
-import sys
 from collections import defaultdict
 
 
@@ -68,7 +67,7 @@ class po_data():
                     _cont = 1
                     while True:
                         _lines = _data[idx - _cont]
-                        if not _lines.startswith('#:'):
+                        if not _lines.startswith('#'):
                             break
                         else:
                             self.msgs[_msgid]['lines'].append(_lines)
@@ -87,6 +86,6 @@ class po_data():
                         else:
                             self.msgs[_msgid]['msgstr'].append(_msgstr)
                         _cont += 1
-                    except IndexError:
+                    except IndexError:  # pragma: no cover
                         break
         return self.msgs

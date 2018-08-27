@@ -16,14 +16,17 @@ msgid "translator-credits"
 msgstr "tradutor-créditos"
 
 #: article.translate.xml:6
-#, fuzzy
+#: article.translate.xml:16
+#: article.translate.xml:26
 msgid "FreeBSD Support for Leap Seconds"
 msgstr "Suporte do FreeBSD para Leap Seconds"
 
 #: article.translate.xml:8
 #, fuzzy
-msgid "$FreeBSD: head/en_US.ISO8859-1/articles/leap-seconds/article.xml 51243 2017-11-30 14:49:53Z ygy $"
-msgstr "$ FreeBSD: head / pt_PT.ISO8859-1 / artigos / leap-seconds / article.xml 51243 2017-11-30 14: 49: 53Z ygy $"
+msgid "$FreeBSD: head/en_US.ISO8859-1/articles/leap-seconds/article.xml"
+" 51243 2017-11-30 14:49:53Z ygy $"
+msgstr "$ FreeBSD: head / pt_PT.ISO8859-1 / artigos / leap-seconds / article.xml"
+" 51243 2017-11-30 14: 49: 53Z ygy $"
 
 #: article.translate.xml:12
 #, fuzzy
@@ -36,6 +39,7 @@ msgid "A <emphasis>leap second</emphasis> is an one second adjustment made at sp
 msgstr "UMA <emphasis> segundo salto </emphasis> é um ajuste de um segundo feito em momentos específicos do ano para a UTC para sincronizar escalas de tempo atômico com variações na rotação da Terra. Este artigo descreve como o FreeBSD interage com segundos bissextos. "
 
 #: article.translate.xml:20
+#: article.translate.xml:23
 #, fuzzy
 msgid "As of this writing, the next leap second will occur at 2015-Jun-30 23:59:60 UTC. This leap second will occur during a business day for North and South America and the Asia/Pacific region."
 msgstr "Até o momento, o segundo bissexto ocorrerá em 2015-Jun-30 23:59:60 UTC. Esse segundo bissexto ocorrerá durante um dia útil para a América do Norte e do Sul e a região da Ásia / Pacífico."
@@ -53,3 +57,10 @@ msgstr "O comportamento padrão do segundo salto é descrito em <link xlink:href
 #: line.fic:69
 #~ msgid "Standard testes"
 #~ msgstr "Tests padrao"
+
+#: line.fic2:24
+#: line.fic2:69
+#~ msgid "Standard testes"
+#~ "Coverage issue."
+#~ msgstr "Tests padrao"
+#~ "Teste para o coverage"

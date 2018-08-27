@@ -18,35 +18,14 @@ msgstr ""
 
 #. (itstool) path: info/title
 #: article.translate.xml:6
+#, fuzzy
 msgid "FreeBSD Support for Leap Seconds"
 msgstr ""
 
-#. (itstool) path: info/pubdate
-#: article.translate.xml:8
-msgid "$FreeBSD: head/en_US.ISO8859-1/articles/leap-seconds/article.xml 51243 2017-11-30 14:49:53Z ygy $"
+#. (itstool) path: info/title
+#: article.translate.xml:6
+#: article.translate.xml:16
+msgid "Test"
+"For coverage"
 msgstr ""
 
-#. (itstool) path: sect1/title
-#: article.translate.xml:12
-msgid "Introduction"
-msgstr ""
-
-#. (itstool) path: sect1/para
-#: article.translate.xml:14
-msgid "A <emphasis>leap second</emphasis> is an one second adjustment made at specific times of year to UTC to synchronize atomic time scales with variations in the rotation of the Earth. This article describes how FreeBSD interacts with leap seconds."
-msgstr ""
-
-#. (itstool) path: sect1/para
-#: article.translate.xml:20
-msgid "As of this writing, the next leap second will occur at 2015-Jun-30 23:59:60 UTC. This leap second will occur during a business day for North and South America and the Asia/Pacific region."
-msgstr ""
-
-#. (itstool) path: sect1/para
-#: article.translate.xml:25
-msgid "Leap seconds are announced by <link xlink:href=\"http://datacenter.iers.org/\"><acronym>IERS</acronym></link> on <link xlink:href=\"http://datacenter.iers.org/web/guest/bulletins/-/somos/5Rgv/product/16\">Bulletin C</link>."
-msgstr ""
-
-#. (itstool) path: sect1/para
-#: article.translate.xml:29
-msgid "Standard leap second behavior is described in <link xlink:href=\"https://tools.ietf.org/html/rfc7164#section-3\">RFC 7164</link>. Also see <citerefentry><refentrytitle>time2posix</refentrytitle><manvolnum>3</manvolnum></citerefentry>."
-msgstr ""
