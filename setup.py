@@ -6,7 +6,7 @@ setup(name="transpopy",
       license="BSD2CLAUSE",
       install_requires=['google-cloud-translate'],
       scripts=['scripts/transpopy'],
-      version='0.1',
+      version='0.1.1',
       description='A simple script to translate po files.',
       long_description=("Read a po file and translate the msgids with the "
                         "google translate API."),
