@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Tests for ipy_data files"""
+"""Tests for transpopy files"""
 
 
 from argparse import ArgumentParser
