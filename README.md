@@ -24,12 +24,13 @@ kanazuchi@FreeBSD #: python3 setup.py install
 ```
 
 ### Usage:
-> transpopy -f samples/leap-seconds.pot -o newfile.po -t pt_br -e -i -p
+> transpopy -f *samples/leap-seconds.pot* -o *newfile.po* -t *zh_cn* -e -i -p
+![leap-seconds to chinese language](http://kanazuchi.com/static/chinese.jpg)
 
 #### Help:
 Translate msgid from po file with google translate API
 
-```
+```console
 optional arguments:
   -h, --help            show this help message and exit
   -f FILE, --file FILE  Get the po file name to translated msgid's.
