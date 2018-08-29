@@ -6,19 +6,22 @@ Read pot files to translate strings in msgid with google translate API and save 
 ### Install
 
 #### With PyPi
-> virtualenv --python=python3 .
-
-> source bin/activate
-
-> pip3 install transpopy
+```console
+kanazuchi@FreeBSD #: virtualenv --python=python3 .
+kanazuchi@FreeBSD #: source bin/activate
+kanazuchi@FreeBSD #: pip3 install transpopy
+```
 
 #### With BSD pkg
-> pkg install py36-transpopy
+```console
+kanazuchi@FreeBSD #: pkg install py36-transpopy
+```
 
 #### With GitHub
-> git clone https://github.com/kanazux/transpopy
-
-> python3 setup.py install
+```console
+kanazuchi@FreeBSD #: git clone https://github.com/kanazux/transpopy
+kanazuchi@FreeBSD #: python3 setup.py install
+```
 
 ### Usage:
 > transpopy -f samples/leap-seconds.pot -o newfile.po -t pt_br -e -i -p
