@@ -7,7 +7,9 @@ Read pot files to translate strings in msgid with google translate API and save 
 
 #### With PyPi
 > virtualenv --python=python3 .
+
 > source bin/activate
+
 > pip3 install transpopy
 
 #### With BSD pkg
@@ -15,6 +17,7 @@ Read pot files to translate strings in msgid with google translate API and save 
 
 #### With GitHub
 > git clone https://github.com/kanazux/transpopy
+
 > python3 setup.py install
 
 ### Usage:
