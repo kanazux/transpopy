@@ -1,0 +1,260 @@
+#$FreeBSD$
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-08-12 23:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, fuzzy
+msgid "translator-credits"
+msgstr “翻译学分”
+
+#: article.translate.xml:5
+#. (itstool) path: info/title
+#, fuzzy
+msgid "Port Mentor Guidelines"
+msgstr “港口导师指南”
+
+#: article.translate.xml:8
+#. (itstool) path: authorgroup/author
+#, fuzzy
+msgid "<orgname>The FreeBSD Ports Management Team</orgname>"
+msgstr “ <orgname> FreeBSD Ports Management Team </orgname> “
+
+#: article.translate.xml:15
+#: article.translate.xml:13
+#. (itstool) path: info/releaseinfo
+#. (itstool) path: info/pubdate
+#, fuzzy
+msgid "$FreeBSD: head/en_US.ISO8859-1/articles/port-mentor-guidelines/article.xml 51348 2017-12-30 22:56:56Z eadler $"
+msgstr “$ FreeBSD：head / en_US.ISO8859-1 / articles / port-mentor-guidelines / article.xml 51348 2017-12-30 22：56：56Z eadler $”
+
+#: article.translate.xml:17
+#. (itstool) path: info/copyright
+#, fuzzy
+msgid "<year>2011</year> <holder role=\"mailto:tabthorpe@FreeBSD.org\">Thomas Abthorpe</holder> <holder role=\"mailto:crees@FreeBSD.org\">Chris Rees</holder>"
+msgstr “ <year> 2011 </year><holder role=\"mailto:tabthorpe@FreeBSD.org\"> Thomas Abthorpe </holder><holder role=\"mailto:crees@FreeBSD.org\">克里斯里斯</holder> “
+
+#: article.translate.xml:26
+#. (itstool) path: sect1/title
+#, fuzzy
+msgid "Guideline for Mentor/Mentee Relationships"
+msgstr “导师/被指导者关系指南”
+
+#: article.translate.xml:28
+#. (itstool) path: sect1/para
+#, fuzzy
+msgid "This section is intended to help demystify the mentoring process, as well as a way to openly promote a constructive discussion to adapt and grow the guidelines. In our lives we have too many rules; we are not a government organization that inflicts regulation, but rather a collective of like minded individuals working toward a common goal, maintaining the quality assurance of the product we call the Ports Tree."
+msgstr “本节旨在帮助揭开指导过程的神秘面纱，以及公开促进建设性讨论以适应和发展指导方针的方式。在我们的生活中，我们有太多的规则;我们不是一个造成监管的政府组织，但是而是一群志同道合的人为实现共同目标而努力，保持我们称之为Ports Tree的产品的质量保证。“
+
+#: article.translate.xml:38
+#. (itstool) path: sect2/title
+#, fuzzy
+msgid "Why Mentor?"
+msgstr “为什么是导师？”
+
+#: article.translate.xml:42
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "For most of us, we were mentored into the Project, so return the favor by offering to mentor somebody else in."
+msgstr “对于我们大多数人来说，我们都参与了项目，所以通过提供指导其他人的方式来回报他们。”
+
+#: article.translate.xml:48
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "You have an irresistible urge to inflict knowledge on others."
+msgstr “你有一种不可抗拒的冲动，要求对他人施加知识。”
+
+#: article.translate.xml:53
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "The usual punishment applies because you are sick and tired of committing somebody else's good work!"
+msgstr “通常的惩罚适用，因为你生病了，厌倦了做别人的好工作！”
+
+#: article.translate.xml:60
+#. (itstool) path: sect2/title
+#, fuzzy
+msgid "Mentor/Co-Mentor"
+msgstr “学长/联合导师”
+
+#: article.translate.xml:62
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "Reasons for a co-mentorship:"
+msgstr “共同指导的原因：”
+
+#: article.translate.xml:66
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "Significant timezone differential. Accessible, interactive mentor(s) available via IM is extremely helpful!"
+msgstr “显着的时区差异。通过IM提供的无障碍互动导师非常有帮助！”
+
+#: article.translate.xml:72
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "Potential language barrier. Yes, FreeBSD is very English oriented, as is most software development, however, having a mentor who can speak a native language can be very useful."
+msgstr “潜在的语言障碍。是的，FreeBSD非常注重英语，就像大多数软件开发一样，但是，拥有能够说母语的导师会非常有用。”
+
+#: article.translate.xml:79
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "ENOTIME! Until there is a 30 hour day, and an 8 day week, some of us only have so much time to give. Sharing the load with somebody else will make it easier."
+msgstr “ENOTIME！直到每天30小时，每周工作8天，我们中的一些人才有足够的时间给予他们。与其他人分担负担会让事情变得更容易。”
+
+#: article.translate.xml:86
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "A rookie mentor can benefit from the experience of a senior committer/mentor."
+msgstr “新手导师可以从高级助手/导师的经验中受益。”
+
+#: article.translate.xml:91
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "Two heads are better than one."
+msgstr “三个臭皮匠顶个诸葛亮。”
+
+#: article.translate.xml:95
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "Reasons for sole mentorship:"
+msgstr “唯一指导的理由：”
+
+#: article.translate.xml:99
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "You do not play nicely with others."
+msgstr “你不和别人玩得很好。”
+
+#: article.translate.xml:103
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "You prefer to have a one-on-one relationship."
+msgstr “你更喜欢一对一的关系。”
+
+#: article.translate.xml:107
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "The reasons for co-mentorship do not apply to you."
+msgstr “共同指导的原因不适用于你。”
+
+#: article.translate.xml:222
+#: article.translate.xml:114
+#. (itstool) path: sect2/title
+#, fuzzy
+msgid "Expectations"
+msgstr “期望”
+
+#: article.translate.xml:116
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "We expect mentors to review and test-build all proposed patches, at least for an initial period lasting more than a week or two."
+msgstr “我们希望导师能够审查并测试建立所有提议的补丁，至少在最初的一段时间内持续超过一周或两周。”
+
+#: article.translate.xml:120
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "We expect that mentors should take responsibility for the actions of their mentee. A mentor should follow up with all commits the mentee makes, both approved and implicit."
+msgstr “我们希望导师应该对他们的受指导者的行为负责。导师应该跟进受指导者所做的所有承诺，包括批准和暗示。”
+
+#: article.translate.xml:124
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "We expect mentors to make sure their mentees read the <link xlink:href=\"@@URL_RELPREFIX@@/doc/en_US.ISO8859-1/books/porters-handbook\">Porter's Handbook</link>, the <link xlink:href=\"@@URL_RELPREFIX@@/doc/en_US.ISO8859-1/articles/pr-guidelines\">PR handling guide</link>, and the <link xlink:href=\"@@URL_RELPREFIX@@/doc/en_US.ISO8859-1/articles/committers-guide\">Committer's Guide</link>. While it is not necessary to memorize all the details, every committer needs to have an overview of these things to be an effective part of the community (and avoid as many rookie mistakes as possible)."
+msgstr “我们希望导师确保他们的学员阅读<link xlink:href=\"@@URL_RELPREFIX@@/doc/en_US.ISO8859-1/books/porters-handbook\">波特的手册</link> ， <link xlink:href=\"@@URL_RELPREFIX@@/doc/en_US.ISO8859-1/articles/pr-guidelines\">公关处理指南</link> ，和<link xlink:href=\"@@URL_RELPREFIX@@/doc/en_US.ISO8859-1/articles/committers-guide\">提交者指南</link> 。虽然没有必要记住所有细节，但每个提交者都需要对这些事情进行概述才能成为社区的有效组成部分（并避免尽可能多的新手错误）。“
+
+#: article.translate.xml:135
+#. (itstool) path: sect2/title
+#, fuzzy
+msgid "Selecting a Mentee"
+msgstr “选择受指导者”
+
+#: article.translate.xml:137
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "There is no defined rule for what makes a candidate ready; it can be a combination of number of PRs they have submitted, the number of ports maintained, frequency of ports updates and/or level of participation in a particular area of interest like <application>GNOME</application>, <application>KDE</application>, <application>Gecko</application> or others."
+msgstr “候选人准备好了什么没有明确的规则;它可以是他们提交的PR数量，维护的端口数量，端口更新频率和/或特定感兴趣区域的参与程度的组合，如<application> GNOME </application> ， <application> KDE </application> ， <application>壁虎</application>或其他人。“
+
+#: article.translate.xml:146
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "A candidate should have almost no timeouts, be responsive to requests, and generally helpful in supporting their ports."
+msgstr “候选人应该几乎没有超时，对请求做出回应，并且通常有助于支持他们的端口。”
+
+#: article.translate.xml:150
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "There must be a history of commitment, as it is widely understood that training a committer requires time and effort. If somebody has been around longer, and spent the time observing how things are done, there is some anticipation of accumulated knowledge. All too often we have seen a maintainer submit a few PRs, show up in IRC and ask when they will be given a commit bit."
+msgstr “必须有承诺的历史，因为人们普遍认为培训提交者需要时间和精力。如果有人长时间陪伴，并花时间观察事情是如何完成的，那么就会有一些积累的知识预期。通常我们已经看到维护者提交了一些PR，出现在IRC中并询问他们什么时候会得到提交位。“
+
+#: article.translate.xml:158
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "Being subscribed to, and following the mailing lists is very beneficial. There is no real expectation that submitting posts on the lists will make somebody a committer, but it demonstrates a commitment. Some mails offer insights into the knowledge of a candidate as well how they interact with others. Similarly participating in IRC can give somebody a higher profile."
+msgstr “订阅并遵循邮件列表是非常有益的。没有真正期望在列表上提交帖子会使某人成为提交者，但它表明了一种承诺。一些邮件提供了对候选人知识的见解以及如何他们与他人互动。同样参与IRC可以让人更高。“
+
+#: article.translate.xml:166
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "Ask six different committers how many PRs a maintainer should submit prior to being nominated, and you will get six different answers. Ask those same individuals how long somebody should have been participating, same dilemma. How many ports should they have at a minimum? Now we have a bikeshed! Some things are just hard to quantify, a mentor will just have to use their best judgement, and hope that portmgr agrees."
+msgstr “向六个不同的提交者询问维护者在被提名之前应该提交多少PR，你会得到六个不同的答案。问那些同一个人应该参与多长时间，同样的困境。他们应该至少拥有多少个端口？现在我们有一个笨蛋！有些事情很难量化，导师只需要用他们最好的判断力，并希望portmgr同意。“
+
+#: article.translate.xml:177
+#. (itstool) path: sect2/title
+#, fuzzy
+msgid "Mentorship Duration"
+msgstr “导师持续时间”
+
+#: article.translate.xml:179
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "As the trust level develops and grows, the mentee may be granted <quote>implicit</quote> commit rights. This can include trivial changes to a <filename>Makefile</filename>, <filename>pkg-descr</filename> etc. Similarly, it may include <varname>PORTVERSION</varname> updates that do not include <varname>plist</varname> changes. Other circumstances may be formulated at the discretion of the Mentor. However, during the period of mentorship, a port version bump that affects dependent ports should be checked by a mentor."
+msgstr “随着信任水平的发展和增长，受指导者可能会获得批准<quote>含蓄</quote>提交权利。这可能包括a的微不足道的变化<filename> Makefile文件</filename> ， <filename>其pkg-descr </filename>同样，它可能包括<varname> PORTVERSION </varname>不包含的更新<varname> plist中</varname>变化。其他情况可由导师斟酌决定。但是，在指导期间，导师应检查影响相关端口的端口版本冲击。“
+
+#: article.translate.xml:189
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "Just as we are all varied individuals, each mentee has different learning curves, time commitments, and other influencing factors that will contribute to the time required before they can <quote>fly solo</quote>. Empirically, a mentee should be observed for at least 3 months. 90-100 commits is another target that a mentor could use before releasing a mentee. Other factors to consider prior releasing a mentee are the number of mistakes they may have made, QATs received etc. If they are still making rookie mistakes, they still require mentor guidance."
+msgstr “正如我们都是各种各样的人一样，每个受指导者都有不同的学习曲线，时间承诺和其他影响因素，这些因素将导致他们需要的时间。 <quote>单飞</quote> 。根据经验，受指导者应至少观察3个月。 90-100次提交是指导者在释放被指导者之前可以使用的另一个目标。在释放受指导者之前需要考虑的其他因素包括他们可能犯过的错误数量，QAT收到的等等。如果他们仍然犯了新手错误，他们仍然需要导师指导。“
+
+#: article.translate.xml:202
+#. (itstool) path: sect2/title
+#, fuzzy
+msgid "Mentor/Co-Mentor Debate"
+msgstr “导师/共同导师辩论”
+
+#: article.translate.xml:204
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "When a request gets to portmgr, it usually reads as, <quote>I propose 'foo' for a ports commit bit, I will co-mentor with 'bar'</quote>. Proposal received, voted, and carried."
+msgstr “当请求到达portmgr时，它通常显示为， <quote>我建议&#39;foo&#39;为端口提交位，我将与&#39;bar&#39;共同指导</quote> 。收到，投票和进行的提案。“
+
+#: article.translate.xml:209
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "The mentor is the primary point of contact or the <quote>first among equals</quote>, the co-mentor is the backup."
+msgstr “导师是主要的接触点或者<quote>首先是平等的</quote> ，共同导师是备份。“
+
+#: article.translate.xml:213
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "Some reprobate, whose name shall be withheld, made the <link xlink:href=\"https://lists.freebsd.org/pipermail/cvs-ports/2007-September/134614.html\"> first recorded co-mentor commit</link>. Similar co-mentor commits have also been spotted in the src tree. Does this make it right? Does this make it wrong? It seems to be part of the evolution of how things are done."
+msgstr “一些诽谤者，其姓名将被扣留，作出了<link xlink:href=\"https://lists.freebsd.org/pipermail/cvs-ports/2007-September/134614.html\">第一次记录的共同指导者提交</link> 。在src树中也发现了类似的共同指导者提交。这是否正确？这会弄错吗？这似乎是事情发展的一部分。“
+
+#: article.translate.xml:224
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "We expect mentees to be prepared for constructive criticism from the community. There's still a lot of <quote>lore</quote> that is not written down. Responding well to constructive criticism is what we hope we are selecting for by first reviewing their existing contributions on IRC and mailing lists."
+msgstr “我们希望学员能够为社区的建设性批评做好准备。还有很多<quote>知识</quote>那不是写下来的。我们希望通过首先审查他们在IRC和邮件列表上的现有贡献来回应建设性批评。“
+
+#: article.translate.xml:231
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "We warn mentees that some of the criticism they receive may be less <quote>constructive</quote> than others, (whether through language communication problems, or excessive nit-picking), and that dealing with this gracefully is just part of being in a large community. In case of specific problems with specific people, or any questions, we hope that they will approach a portmgr member on IRC or by email."
+msgstr “我们警告学员，他们收到的一些批评可能会少一些<quote>建设性</quote>比起其他人（无论是通过语言沟通问题，还是过度挑选），以及优雅地处理这种问题只是在一个大社区中的一部分。如果特定人员遇到特定问题或有任何疑问，我们希望他们能够通过IRC或电子邮件联系portmgr会员。“
+

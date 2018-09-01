@@ -1,0 +1,260 @@
+#$FreeBSD$
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-08-12 23:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#, fuzzy
+msgid "translator-credits"
+msgstr "traduttore-crediti"
+
+#: article.translate.xml:5
+#. (itstool) path: info/title
+#, fuzzy
+msgid "Port Mentor Guidelines"
+msgstr "Linee guida Port Mentor"
+
+#: article.translate.xml:8
+#. (itstool) path: authorgroup/author
+#, fuzzy
+msgid "<orgname>The FreeBSD Ports Management Team</orgname>"
+msgstr " <orgname> Il team di gestione delle porte di FreeBSD </orgname> "
+
+#: article.translate.xml:15
+#: article.translate.xml:13
+#. (itstool) path: info/releaseinfo
+#. (itstool) path: info/pubdate
+#, fuzzy
+msgid "$FreeBSD: head/en_US.ISO8859-1/articles/port-mentor-guidelines/article.xml 51348 2017-12-30 22:56:56Z eadler $"
+msgstr "$ FreeBSD: head / en_US.ISO8859-1 / articles / port-mentor-guidelines / article.xml 51348 2017-12-30 22: 56: 56Z eadler $"
+
+#: article.translate.xml:17
+#. (itstool) path: info/copyright
+#, fuzzy
+msgid "<year>2011</year> <holder role=\"mailto:tabthorpe@FreeBSD.org\">Thomas Abthorpe</holder> <holder role=\"mailto:crees@FreeBSD.org\">Chris Rees</holder>"
+msgstr " <year> 2011 </year><holder role=\"mailto:tabthorpe@FreeBSD.org\"> Thomas Abthorpe </holder><holder role=\"mailto:crees@FreeBSD.org\"> Chris Rees </holder> "
+
+#: article.translate.xml:26
+#. (itstool) path: sect1/title
+#, fuzzy
+msgid "Guideline for Mentor/Mentee Relationships"
+msgstr "Linee guida per le relazioni mentore / mentore"
+
+#: article.translate.xml:28
+#. (itstool) path: sect1/para
+#, fuzzy
+msgid "This section is intended to help demystify the mentoring process, as well as a way to openly promote a constructive discussion to adapt and grow the guidelines. In our lives we have too many rules; we are not a government organization that inflicts regulation, but rather a collective of like minded individuals working toward a common goal, maintaining the quality assurance of the product we call the Ports Tree."
+msgstr "Questa sezione ha lo scopo di aiutare a demistificare il processo di mentoring, nonché un modo per promuovere apertamente una discussione costruttiva per adattare e far crescere le linee guida.Nelle nostre vite abbiamo troppe regole, non siamo un&#39;organizzazione governativa che infligge regolamentazione, ma piuttosto un collettivo di individui con mentalità simile che lavorano verso un obiettivo comune, mantenendo la garanzia della qualità del prodotto che chiamiamo l&#39;Albero dei Porti ".
+
+#: article.translate.xml:38
+#. (itstool) path: sect2/title
+#, fuzzy
+msgid "Why Mentor?"
+msgstr "Perché il mentore?"
+
+#: article.translate.xml:42
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "For most of us, we were mentored into the Project, so return the favor by offering to mentor somebody else in."
+msgstr "Per la maggior parte di noi, siamo stati guidati nel Progetto, quindi restituisci il favore offrendo mentore a qualcun altro."
+
+#: article.translate.xml:48
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "You have an irresistible urge to inflict knowledge on others."
+msgstr "Hai un irresistibile bisogno di infliggere conoscenza agli altri."
+
+#: article.translate.xml:53
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "The usual punishment applies because you are sick and tired of committing somebody else's good work!"
+msgstr "La solita punizione si applica perché sei malato e stanco di commettere il buon lavoro di qualcun altro!"
+
+#: article.translate.xml:60
+#. (itstool) path: sect2/title
+#, fuzzy
+msgid "Mentor/Co-Mentor"
+msgstr "Mentor / Co-Mentor"
+
+#: article.translate.xml:62
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "Reasons for a co-mentorship:"
+msgstr "Motivi per una co-tutela:"
+
+#: article.translate.xml:66
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "Significant timezone differential. Accessible, interactive mentor(s) available via IM is extremely helpful!"
+msgstr "Differenze significative nel fuso orario: i mentori accessibili e interattivi disponibili tramite IM sono estremamente utili!"
+
+#: article.translate.xml:72
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "Potential language barrier. Yes, FreeBSD is very English oriented, as is most software development, however, having a mentor who can speak a native language can be very useful."
+msgstr "Potenziale barriera linguistica Sì, FreeBSD è molto orientato all&#39;Inglese, come lo è la maggior parte dello sviluppo di software, tuttavia, avere un mentore che può parlare una lingua madre può essere molto utile."
+
+#: article.translate.xml:79
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "ENOTIME! Until there is a 30 hour day, and an 8 day week, some of us only have so much time to give. Sharing the load with somebody else will make it easier."
+msgstr "ENOTIME! Fino a quando non ci sarà un giorno di 30 ore e una settimana di 8 giorni, alcuni di noi avranno solo tanto tempo da dedicare. Condividere il carico con qualcun altro renderà più semplice".
+
+#: article.translate.xml:86
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "A rookie mentor can benefit from the experience of a senior committer/mentor."
+msgstr "Un mentore esordiente può beneficiare dell&#39;esperienza di un senior committer / mentore."
+
+#: article.translate.xml:91
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "Two heads are better than one."
+msgstr "Due teste sono meglio di una."
+
+#: article.translate.xml:95
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "Reasons for sole mentorship:"
+msgstr "Motivi per la sola consulenza:"
+
+#: article.translate.xml:99
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "You do not play nicely with others."
+msgstr "Non giochi bene con gli altri."
+
+#: article.translate.xml:103
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "You prefer to have a one-on-one relationship."
+msgstr "Preferisci avere una relazione uno a uno."
+
+#: article.translate.xml:107
+#. (itstool) path: listitem/para
+#, fuzzy
+msgid "The reasons for co-mentorship do not apply to you."
+msgstr "I motivi per la co-tutela non si applicano a te."
+
+#: article.translate.xml:222
+#: article.translate.xml:114
+#. (itstool) path: sect2/title
+#, fuzzy
+msgid "Expectations"
+msgstr "aspettative"
+
+#: article.translate.xml:116
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "We expect mentors to review and test-build all proposed patches, at least for an initial period lasting more than a week or two."
+msgstr "Prevediamo che i mentori rivedranno e testeranno tutte le patch proposte, almeno per un periodo iniziale della durata di più di una settimana o due".
+
+#: article.translate.xml:120
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "We expect that mentors should take responsibility for the actions of their mentee. A mentor should follow up with all commits the mentee makes, both approved and implicit."
+msgstr "Ci aspettiamo che i mentori si assumano la responsabilità delle azioni del loro mentee: un mentore dovrebbe seguire tutti i commit che l&#39;allievo fa, sia approvati che impliciti".
+
+#: article.translate.xml:124
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "We expect mentors to make sure their mentees read the <link xlink:href=\"@@URL_RELPREFIX@@/doc/en_US.ISO8859-1/books/porters-handbook\">Porter's Handbook</link>, the <link xlink:href=\"@@URL_RELPREFIX@@/doc/en_US.ISO8859-1/articles/pr-guidelines\">PR handling guide</link>, and the <link xlink:href=\"@@URL_RELPREFIX@@/doc/en_US.ISO8859-1/articles/committers-guide\">Committer's Guide</link>. While it is not necessary to memorize all the details, every committer needs to have an overview of these things to be an effective part of the community (and avoid as many rookie mistakes as possible)."
+msgstr "Ci aspettiamo che i mentori si assicurino che i loro allievi leggano il <link xlink:href=\"@@URL_RELPREFIX@@/doc/en_US.ISO8859-1/books/porters-handbook\"> Manuale di Porter </link> , il <link xlink:href=\"@@URL_RELPREFIX@@/doc/en_US.ISO8859-1/articles/pr-guidelines\"> Guida alla gestione delle pubbliche relazioni </link> , e il <link xlink:href=\"@@URL_RELPREFIX@@/doc/en_US.ISO8859-1/articles/committers-guide\"> Guida del committer </link> . Anche se non è necessario memorizzare tutti i dettagli, ogni committer deve avere una visione d&#39;insieme di queste cose per essere una parte efficace della comunità (ed evitare il maggior numero possibile di errori da principiante). "
+
+#: article.translate.xml:135
+#. (itstool) path: sect2/title
+#, fuzzy
+msgid "Selecting a Mentee"
+msgstr "Selezione di un mentore"
+
+#: article.translate.xml:137
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "There is no defined rule for what makes a candidate ready; it can be a combination of number of PRs they have submitted, the number of ports maintained, frequency of ports updates and/or level of participation in a particular area of interest like <application>GNOME</application>, <application>KDE</application>, <application>Gecko</application> or others."
+msgstr "Non esiste una regola definita per ciò che rende pronto un candidato, può essere una combinazione del numero di PR che hanno presentato, il numero di porti mantenuti, la frequenza di aggiornamenti dei porti e / o il livello di partecipazione in una particolare area di interesse come <application> GNOME </application> , <application> KDE </application> , <application> Geco </application> o altri. "
+
+#: article.translate.xml:146
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "A candidate should have almost no timeouts, be responsive to requests, and generally helpful in supporting their ports."
+msgstr "Un candidato dovrebbe avere quasi nessun timeout, essere reattivo alle richieste e generalmente utile nel supportare i loro porti."
+
+#: article.translate.xml:150
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "There must be a history of commitment, as it is widely understood that training a committer requires time and effort. If somebody has been around longer, and spent the time observing how things are done, there is some anticipation of accumulated knowledge. All too often we have seen a maintainer submit a few PRs, show up in IRC and ask when they will be given a commit bit."
+msgstr "Deve esserci una storia di impegno, poiché è ampiamente compreso che la formazione di un committer richiede tempo e impegno.Se qualcuno è stato in giro più a lungo e ha trascorso il tempo osservando come sono fatte le cose, c&#39;è qualche anticipazione della conoscenza accumulata. spesso abbiamo visto un manutentore inviare alcuni PR, presentarsi in IRC e chiedere quando riceveranno un bit di commit ".
+
+#: article.translate.xml:158
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "Being subscribed to, and following the mailing lists is very beneficial. There is no real expectation that submitting posts on the lists will make somebody a committer, but it demonstrates a commitment. Some mails offer insights into the knowledge of a candidate as well how they interact with others. Similarly participating in IRC can give somebody a higher profile."
+msgstr "Essere iscritto e seguire le mailing lists è molto vantaggioso, non c&#39;è alcuna aspettativa che l&#39;invio di post negli elenchi possa rendere qualcuno un committer, ma dimostra un impegno. Alcune mail offrono approfondimenti sulla conoscenza di un candidato e su come interagiscono con gli altri e partecipare in modo simile a IRC può dare a qualcuno un profilo più alto ".
+
+#: article.translate.xml:166
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "Ask six different committers how many PRs a maintainer should submit prior to being nominated, and you will get six different answers. Ask those same individuals how long somebody should have been participating, same dilemma. How many ports should they have at a minimum? Now we have a bikeshed! Some things are just hard to quantify, a mentor will just have to use their best judgement, and hope that portmgr agrees."
+msgstr "Chiedete a sei diversi committer quante PR un maintainer dovrebbe presentare prima di essere nominato, e otterrete sei risposte diverse: chiedete a quegli stessi individui per quanto tempo qualcuno avrebbe dovuto partecipare, lo stesso dilemma: quanti porti dovrebbero avere al minimo? Ora abbiamo un deposito di biciclette! Alcune cose sono difficili da quantificare, un mentore dovrà solo usare il loro miglior giudizio, e spero che sia d&#39;accordo. "
+
+#: article.translate.xml:177
+#. (itstool) path: sect2/title
+#, fuzzy
+msgid "Mentorship Duration"
+msgstr "Durata del mentoring"
+
+#: article.translate.xml:179
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "As the trust level develops and grows, the mentee may be granted <quote>implicit</quote> commit rights. This can include trivial changes to a <filename>Makefile</filename>, <filename>pkg-descr</filename> etc. Similarly, it may include <varname>PORTVERSION</varname> updates that do not include <varname>plist</varname> changes. Other circumstances may be formulated at the discretion of the Mentor. However, during the period of mentorship, a port version bump that affects dependent ports should be checked by a mentor."
+msgstr "Man mano che il livello di fiducia si sviluppa e cresce, il mentee può essere garantito <quote> implicito </quote> commettere i diritti. Questo può includere cambiamenti banali a a <filename> Makefile </filename> , <filename> pkg-descr </filename> ecc. Allo stesso modo, potrebbe includere <varname> PORTVERSION </varname> aggiornamenti che non includono <varname> plist </varname> i cambiamenti. Altre circostanze possono essere formulate a discrezione del mentore. Tuttavia, durante il periodo di mentorship, un mittente della versione di porta che influenza le porte dipendenti dovrebbe essere controllato da un tutor. "
+
+#: article.translate.xml:189
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "Just as we are all varied individuals, each mentee has different learning curves, time commitments, and other influencing factors that will contribute to the time required before they can <quote>fly solo</quote>. Empirically, a mentee should be observed for at least 3 months. 90-100 commits is another target that a mentor could use before releasing a mentee. Other factors to consider prior releasing a mentee are the number of mistakes they may have made, QATs received etc. If they are still making rookie mistakes, they still require mentor guidance."
+msgstr "Proprio come siamo tutti diversi individui, ogni mentee ha diverse curve di apprendimento, impegni di tempo e altri fattori che influenzano che contribuiranno al tempo necessario prima che possano <quote> vola da solo </quote> . Empiricamente, un allievo deve essere osservato per almeno 3 mesi. Il 90-100 commit è un altro obiettivo che un mentore potrebbe usare prima di rilasciare un allievo. Altri fattori da considerare prima di rilasciare un mentee sono il numero di errori che possono aver commesso, i QAT ricevuti ecc. Se stanno ancora commettendo errori da principiante, hanno ancora bisogno di guida del mentore. "
+
+#: article.translate.xml:202
+#. (itstool) path: sect2/title
+#, fuzzy
+msgid "Mentor/Co-Mentor Debate"
+msgstr "Dibattito mentore / co-mentore"
+
+#: article.translate.xml:204
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "When a request gets to portmgr, it usually reads as, <quote>I propose 'foo' for a ports commit bit, I will co-mentor with 'bar'</quote>. Proposal received, voted, and carried."
+msgstr "Quando una richiesta arriva a portmgr, solitamente si legge come, <quote> Propongo "foo" per un commit bit di porte, io co-mentore con "bar" </quote> . Proposta ricevuta, votata e trasportata. "
+
+#: article.translate.xml:209
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "The mentor is the primary point of contact or the <quote>first among equals</quote>, the co-mentor is the backup."
+msgstr "Il mentore è il punto di contatto principale o il <quote> primo tra pari </quote> , il co-mentore è il backup. "
+
+#: article.translate.xml:213
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "Some reprobate, whose name shall be withheld, made the <link xlink:href=\"https://lists.freebsd.org/pipermail/cvs-ports/2007-September/134614.html\"> first recorded co-mentor commit</link>. Similar co-mentor commits have also been spotted in the src tree. Does this make it right? Does this make it wrong? It seems to be part of the evolution of how things are done."
+msgstr "Alcuni reprobi, il cui nome sarà trattenuto, fecero il <link xlink:href=\"https://lists.freebsd.org/pipermail/cvs-ports/2007-September/134614.html\"> primo commit del co-mentore registrato </link> . Sono stati individuati simili commit di co-mentor anche nell&#39;albero src. Questo è giusto? Questo è sbagliato? Sembra essere parte dell&#39;evoluzione di come sono fatte le cose. "
+
+#: article.translate.xml:224
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "We expect mentees to be prepared for constructive criticism from the community. There's still a lot of <quote>lore</quote> that is not written down. Responding well to constructive criticism is what we hope we are selecting for by first reviewing their existing contributions on IRC and mailing lists."
+msgstr "Prevediamo che i mentee siano preparati a critiche costruttive da parte della comunità. Ne esistono ancora molte <quote> tradizioni </quote> questo non è scritto Rispondere bene alle critiche costruttive è ciò che speriamo di selezionare per prima cosa rivedendo i loro contributi esistenti su IRC e mailing list ".
+
+#: article.translate.xml:231
+#. (itstool) path: sect2/para
+#, fuzzy
+msgid "We warn mentees that some of the criticism they receive may be less <quote>constructive</quote> than others, (whether through language communication problems, or excessive nit-picking), and that dealing with this gracefully is just part of being in a large community. In case of specific problems with specific people, or any questions, we hope that they will approach a portmgr member on IRC or by email."
+msgstr "Avvertiamo gli studenti che alcune delle critiche che ricevono possono essere inferiori <quote> costruttivo </quote> rispetto ad altri, (sia attraverso problemi di comunicazione linguistica, sia con eccessiva cernita), e che trattare questo con garbo è solo una parte dell&#39;essere in una grande comunità. In caso di problemi specifici con persone specifiche o domande, ci auguriamo che si avvicinino a un membro di Portmgr su IRC o via email ".
+
