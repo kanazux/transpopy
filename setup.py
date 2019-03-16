@@ -1,12 +1,14 @@
 from setuptools import setup
 
 
-setup(name="transpopy",
-      packages=["transpopy"],
-      license="BSD2CLAUSE",
-      install_requires=['google-cloud-translate'],
-      scripts=['scripts/transpopy'],
+setup(name='transpopy',
       version='0.1.1',
+      license='BSD2CLAUSE',
+      install_requires=['google-cloud-translate'],
+      packages=['transpopy'],
+      package_data={'transpopy': ['transpopy/*']},
+      data_files=[('LICENSE')],
+      entry_points={'console_scripts': ['transpopy=transpopy.__main__:main']},
       description='A simple script to translate po files.',
       long_description=("Read a po file and translate the msgids with the "
                         "google translate API."),

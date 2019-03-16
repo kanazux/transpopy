@@ -9,19 +9,17 @@ from argparse import ArgumentParser
 def return_args():
     """Return a parser object."""
     _parser = ArgumentParser(add_help=True, description=(
-        "Translate msgid from po file with google translate API"))
+        "Translate msgid's from a POT file with Google Translate API"))
     _parser.add_argument('-f', '--file', action='store', required=True,
-                         help="Get the po file name to translated msgid's.")
+                         help="Get the POT file name.")
     _parser.add_argument('-o', '--output_file', action='store', required=True,
-                         help="Get a name to save new po file.")
-    _parser.add_argument('-l', '--lang', action='store', required=False,
-                         help="Get original language of po file.")
+                         help="Get name to save the new PO file.")
     _parser.add_argument('-t', '--translate', action='store', required=True,
-                         help="Get language to translate the po file strings.")
+                         help="Get language to translate to.")
     _parser.add_argument('-i', '--imprecise', action='store_true',
-                         help="Write messages as fuzzy.")
+                         help="Save translated texts as fuzzy(draft).")
     _parser.add_argument('-e', '--error', action='store_true',
-                         help="Print some errors if exists.")
+                         help="Print translate errors if exist.")
     _parser.add_argument('-p', '--print_process', action='store_true',
                          help="Print translate process.")
     return _parser

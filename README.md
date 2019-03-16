@@ -33,13 +33,12 @@ Translate msgid from po file with google translate API
 ```console
 optional arguments:
   -h, --help            show this help message and exit
-  -f FILE, --file FILE  Get the po file name to translated msgid's.
+  -f FILE, --file FILE  Get the POT file name.
   -o OUTPUT_FILE, --output_file OUTPUT_FILE
-                        Get a name to save new po file.
-  -l LANG, --lang LANG  Get original language of po file.
+                        Get name to save the new PO file.
   -t TRANSLATE, --translate TRANSLATE
-                        Get language to translate the po file strings.
-  -i, --imprecise       Write messages as fuzzy.
-  -e, --error           Print some errors if exists.
+                        Get language to translate to.
+  -i, --imprecise       Save translated texts as fuzzy(draft).
+  -e, --error           Print translate errors if exist.
   -p, --print_process   Print translate process.
 ```
