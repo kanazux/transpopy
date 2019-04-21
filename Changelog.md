@@ -1,6 +1,6 @@
 # transpopy
 
-## [Unreleased]
+## [0.2.0] - 2019-04-20
 ### Added
 - Accept msgid's with multiple lines
 - New tests
