@@ -2,7 +2,7 @@ from setuptools import setup
 
 
 setup(name='transpopy',
-      version='0.2.0',
+      version='0.3.0',
       license='BSD2CLAUSE',
       install_requires=['google-cloud-translate'],
       packages=['transpopy'],

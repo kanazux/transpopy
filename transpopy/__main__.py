@@ -65,7 +65,7 @@ def mainmsg(_opts):
                 msgctxtmark = True
                 msgidcount += 1
 
-                if _opts.imprecise and msgidcount > 1:
+                if _opts.draft and msgidcount > 1:
                     new_pofile.write('#, fuzzy\n')
 
             if patternmsgid.match(line):
@@ -73,7 +73,7 @@ def mainmsg(_opts):
                 msgidcount += 1
                 msgtmp = []
 
-                if _opts.imprecise and msgidcount > 1 and not msgctxtmark:
+                if _opts.draft and msgidcount > 1 and not msgctxtmark:
                     new_pofile.write('#, fuzzy\n')
 
                 msgtmp.append(line)
@@ -90,6 +90,9 @@ def mainmsg(_opts):
                         translate_text(
                                 msgtmp,
                                 _opts.translate,
+                                _opts.id_project,
+                                _opts.mime_type,
+                                _opts.source_lang,
                                 _opts.error,
                                 _opts.print_process
                             )

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Translate text from msgid's
 """
@@ -5,6 +6,7 @@ Translate text from msgid's
 import re
 import sys
 from google.cloud import translate
+from google.cloud import translate_v3beta1 as translate
 
 
 def clean_text(_text):
@@ -67,7 +69,8 @@ def clean_output_text(_text):
     return _temp
 
 
-def translate_text(_text, _targ_lang, _error=False, _print_process=False):
+def translate_text(_text, _targ_lang, _project, _mime_type,
+                   _source_lang, _error=False, _print_process=False):
     """translate_text: Translate msgid text from a pot file
 
     :_text: msgid text
@@ -78,7 +81,7 @@ def translate_text(_text, _targ_lang, _error=False, _print_process=False):
     """
 
     try:
-        _client = translate.Client()
+        _client = translate.TranslationServiceClient()
     except Exception as error:
         print(error)
         sys.exit(1)
@@ -87,23 +90,33 @@ def translate_text(_text, _targ_lang, _error=False, _print_process=False):
         print('............................................................')
         print('Tranlating message:')
         print(clean_text(_text))
+    
+    trans = False
+
     try:
         # Preserve line breaks
         # The translate api has a parameter format which you can set to text.
         # This will preserve line breaks. See
         # https://cloud.google.com/translate/docs/reference/translate.
-        trans = _client.translate(
-                    clean_text(_text),
-                    target_language=_targ_lang,
-                    format_="text")
+        trans = _client.translate_text(
+                    contents=[clean_text(_text)],
+                    mime_type=_mime_type,
+                    source_language_code=_source_lang,
+                    target_language_code=_targ_lang,
+                    parent="projects/{}".format(_project))
     except Exception as error:
         if _error:
             print(error)
 
-    _newtext = clean_output_text(trans['translatedText'])
+    if trans:
+        for _trans in trans.translations:
+            _newtext = clean_output_text(_trans.translated_text)
+    else:
+        _newtext = ""
+
 
     if _print_process:
         print('-->')
-        print(trans['translatedText'])
+        print(_newtext)
 
     return _newtext
