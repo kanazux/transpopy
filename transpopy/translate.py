@@ -1,11 +1,9 @@
-# -*- coding: utf-8 -*-
 """
 Translate text from msgid's
 """
 
 import re
 import sys
-from google.cloud import translate
 from google.cloud import translate_v3beta1 as translate
 
 
