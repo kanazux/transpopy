@@ -2,7 +2,7 @@ language: python
 python:
   '3.6'
 install:
-  pip install tox-travis coverage codecov flake8 google-cloud-core google-cloud-translate
+  pip install tox-travis coverage codecov flake8 grpcio google-cloud-core google-cloud-translate
 script:
   python setup.py test
 script:
